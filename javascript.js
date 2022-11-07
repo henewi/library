@@ -1,9 +1,11 @@
-let myLibrary = [];
+var myLibrary = [];
 
-function Book() {
-    // the constructor
-}
+// function Book() {
+
+// }
 
 function addBookToLibrary() {
-    // do stuff here
+    myLibrary.push(document.getElementById("userinput").value);
+    console.log(myLibrary)
 }
+
