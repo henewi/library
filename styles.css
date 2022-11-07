@@ -1,0 +1,8 @@
+#data {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    border: black 1px solid;
+    padding: 40px;
+    color: black;
+}
