@@ -9,4 +9,10 @@ function addBookToLibrary() {
     console.log(myLibrary)
 }
 
-document.getElementById("data").innerHTML = myLibrary;
+var html='';
+for (var i=1; i<=12; i++) {
+    html+='<div>'+myLibrary[i]+'</div>';
+}
+document.getElementById('data').innerHTML+= html;
+
+// document.getElementById("data").innerHTML = myLibrary;
