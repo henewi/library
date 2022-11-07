@@ -8,11 +8,19 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body onload="addBookToLibrary()">
-    <div>
+    <!-- <div>
         <input type="text" id="userinput" placeholder="NAME">
         <input type="button" onclick="addBookToLibrary()" value="Submit">
+    </div> -->
+    <!-- <div id="data"></div> -->
+    <div>
+        <p>Book Submission</p>
+        <form action="">
+            <input type="text" id="title" placeholder="Title">
+            <input type="text" id="author" placeholder="Author">
+            <input type="number" id="pages" placeholder="No. of pages">
+        </form>
     </div>
-    <div id="data"></div>
 </body>
 <script src="javascript.js"></script>
 </html>

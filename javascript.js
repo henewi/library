@@ -1,8 +1,6 @@
-var myLibrary = [];
+// var myLibrary = [];
 
-function addBookToLibrary() {
-    myLibrary.push(document.getElementById("userinput").value);
-    document.getElementById("data").innerHTML = myLibrary;
-}
-
-// document.getElementById("data").innerHTML = myLibrary;
+// function addBookToLibrary() {
+//     myLibrary.push(document.getElementById("userinput").value);
+//     document.getElementById("data").innerHTML = myLibrary;
+// }
