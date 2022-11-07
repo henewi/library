@@ -7,9 +7,9 @@ function addBookToLibrary() {
 
 
 function Book() {
-    var html='';
-    for (var i=1; i<=12; i++) {
-        html+='<div>'+myLibrary[i]+'</div>';
+    var page='';
+    for (var i=0; i<Book.length; i++) {
+        page+='<br>'+myLibrary[i]+'</div>';
     }
     return html;
 }
