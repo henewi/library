@@ -32,10 +32,10 @@ const details = {
     firstname: 'Henry',
     lastname: 'Dunn',
     age: '19',
-    favnum: function() {
+    "favnum": function() {
         console.log(99-30);
     }
 }
 
 console.log(details.firstname);
-console.log(details.favnum);
+console.log(details["favnum"]);
