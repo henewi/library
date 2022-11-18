@@ -1,3 +1,11 @@
+// 1. Get the data from the user 
+// 2. Store that in an array 
+// 3. Store the array within a library
+// 4. Display each section of the library on the page
+// 5. Allow the library to be recalled at any time
+
+//-----------------------------------------------------------------
+
 // var myLibrary = [];
 
 // function addBookToLibrary() {
@@ -5,15 +13,25 @@
 //     document.getElementById("data").innerHTML = myLibrary;
 // }
 
-function insert() {
-    title.push(titleInput.value);
-    author.push(authorInput.value);
-    pages.push(pagesInput.value);
+// function insert() {
+//     title.push(titleInput.value);
+//     author.push(authorInput.value);
+//     pages.push(pagesInput.value);
+// }
+
+// var titleInput = []
+
+// function newBook(title) {
+//     titleInput.push(title);
+//     console.log("bookInfo");
+// }
+
+//-----------------------------------------------------------------
+
+const details = {
+    firstname: 'Henry',
+    lastname: 'Dunn',
+    age: '19'
 }
 
-var titleInput = []
-
-function newBook(title) {
-    titleInput.push(title);
-    console.log("bookInfo");
-}
+console.log(details.firstname);
