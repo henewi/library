@@ -39,3 +39,4 @@ const details = {
 
 console.log(details.firstname);
 console.log(details["favnum"]);
+
