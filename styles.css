@@ -274,3 +274,28 @@ body {
     background-color: rgb(19, 19, 19);
     border-radius: 1vw;
 }
+
+.p1:hover {
+    transform: scale(1.05);
+    transition: 0.1s;
+}
+.p2:hover {
+    transform: scale(1.05);
+    transition: 0.1s;
+}
+.p3:hover {
+    transform: scale(1.05);
+    transition: 0.1s;
+}
+.p4:hover {
+    transform: scale(1.05);
+    transition: 0.1s;
+}
+.p5:hover {
+    transform: scale(1.05);
+    transition: 0.1s;
+}
+.p6:hover {
+    transform: scale(1.05);
+    transition: 0.1s;
+}
