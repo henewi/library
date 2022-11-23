@@ -1,0 +1,264 @@
+@font-face {
+    font-family: sfpro;
+    src: url(./font/SFPRODISPLAYREGULAR.OTF);
+}
+
+body {
+    margin: 0;
+    font-family: sfpro;
+}
+
+/* Main Grid Section */
+
+.gridcontainer {
+    display: grid;
+    grid-template-columns: [first] 20vw [line2] auto;
+    grid-template-rows: [row1-start] 19vh [line2] ;
+    height: 100vh;
+}
+
+.leftbar {
+    background-color: lightcoral;
+    grid-column-start: 1;
+    grid-column-end: 2 ;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-image: url(./images/spaceimage.jpg);
+    background-size: cover;
+    border-right-color: white;
+    border-right-width: 0.5vw;
+    border-right-style: solid;
+}
+
+
+.topbar {
+    /* background-color: aqua; */
+    margin-left: 3vw;
+    margin-top: 2vh;
+}
+
+/* Projects, announcements and trending */
+
+.main {
+    /* background-color: blueviolet; */
+    grid-column-start: 2;
+    display: grid;
+    grid-template-columns: [first] 70% [line2] auto;
+    grid-template-rows: [first] 50% [line2] 48%; 
+}
+
+.projects {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    /* background-color: purple; */
+}
+
+/* Left Bar (lb-xxxx) */ 
+
+.leftbar {
+    display: flex;
+    flex-direction: column;
+}
+
+.lb-container {
+    margin-left: 2vw ;
+    margin-top:  2vw ;
+    font-size: 3vh;
+    color: white;
+}
+
+.lb-dashboard {
+    font-size: 4vh;
+    font-weight: 900;
+    margin-bottom: 3vh;
+}
+
+.lb-tasks {
+    margin-bottom: 3vh;
+}
+
+.lb-github {
+    position: absolute;
+    bottom: 3vh;
+    color: rgb(109, 109, 109);
+}
+
+.lb-container:hover {
+    cursor: pointer;
+}
+
+/* Top Bar (tb-xxxx) */ 
+
+.tb-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.tb-topsection {
+    display: flex;
+    margin-top: 2vh;
+}
+
+.tb-searchbar {
+    width: 60%;
+    border-radius: 1vw;
+    height: 4vh;
+    border: none;
+    box-shadow: 0.5vh 0.5vh 1vh rgba(0, 0, 0, 0.384);
+    padding-left: 1.5vw;
+    font-family: sfpro;
+    font-size: 2.5vh;
+}
+
+.tb-profile {
+    font-family: sfpro;
+    font-size: 2.5vh;
+    margin-left: 27%;
+    margin-top: 1.05vh;
+}
+
+.tb-bottomsection {
+    font-size: 3.5vh;
+    display: flex;
+    margin-left: 1vw;
+    margin-top: 3vh;
+}
+
+.tb-name {
+    margin-left: 1vw;
+    margin-top: 0.3vh;
+}
+
+.tb-logo {
+    height: 5vh;
+    width: 5vh;
+    background-color: black;
+    border-radius: 50%;
+
+}
+
+.announcements {
+    font-family: sfpro;
+    font-size: 2.5vh;
+    margin: 2vh;
+    padding-top: 2vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    border: 0.2vh black solid;
+    border-radius: 2vh;
+}
+
+.announcements-title {
+    font-weight: bold;
+    margin-bottom: 1vh;
+}
+
+.trending {
+    display: flex;
+    flex-direction: column;
+    margin: 2vh;
+    padding-top: 2vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    font-size: 2.5vh;
+    border: 0.2vh black solid;
+    border-radius: 2vh;
+}
+
+.tr-title {
+    font-weight: bold;
+}
+
+.tr1cont {
+    background-color: rgb(39, 39, 39);
+    color: white;
+    height: 17%;
+    border-radius: 1vh;
+    margin-top: 1vh;
+}
+
+.tr1 {
+    margin: 1vh;
+}
+
+.tr2cont {
+    background-color: rgb(39, 39, 39);
+    color: white;
+    height: 17%;
+    border-radius: 1vh;
+    margin-top: 1vh;
+}
+
+.tr2 {
+    margin: 1vh;
+}
+
+.tr3cont {
+    background-color: rgb(39, 39, 39);
+    color: white;
+    height: 17%;
+    border-radius: 1vh;
+    margin-top: 1vh;
+}
+
+.tr3 {
+    margin: 1vh;
+}
+
+.tr4cont {
+    background-color: rgb(39, 39, 39);
+    color: white;
+    height: 17%;
+    border-radius: 1vh;
+    margin-top: 1vh;
+}
+
+.tr4 {
+    margin: 1vh;
+}
+
+.projects {
+    margin: 2vh;
+    margin-left: 6vh;
+    margin-right: 5vh;
+    box-shadow: inset 0px 0px 1vw rgba(0, 0, 0, 0.349);
+    border-radius: 3vh;
+}
+
+.projectscont {
+    margin: 4vh;
+    display: grid;
+    grid-template-columns: [first] 31.3% [line2] 31.3% [line3] 31.3%;
+    grid-template-rows: [row1-start] 32.5vh [line2] 32.5vh ;
+    grid-gap: 3vh;
+}
+
+.p1 {
+    background-color: rgb(19, 19, 19);
+    border-radius: 1vw;
+}
+
+.p2 {
+    background-color: rgb(19, 19, 19);
+    border-radius: 1vw;
+}
+
+.p3 {
+    background-color: rgb(19, 19, 19);
+    border-radius: 1vw;
+}
+
+.p4 {
+    background-color: rgb(19, 19, 19);
+    border-radius: 1vw;
+}
+
+.p5 {
+    background-color: rgb(19, 19, 19);
+    border-radius: 1vw;
+}
+
+.p6 {
+    background-color: rgb(19, 19, 19);
+    border-radius: 1vw;
+}
