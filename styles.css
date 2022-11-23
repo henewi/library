@@ -161,7 +161,7 @@ body {
     padding-left: 3vh;
     padding-right: 3vh;
     font-size: 2.5vh;
-    border: 0.2vh black solid;
+    border: 0.2vh rgb(0, 0, 0) solid;
     border-radius: 2vh;
 }
 
@@ -170,7 +170,7 @@ body {
 }
 
 .tr1cont {
-    background-color: rgb(39, 39, 39);
+    background-color: rgb(150, 29, 29);
     color: white;
     height: 17%;
     border-radius: 1vh;
@@ -182,7 +182,7 @@ body {
 }
 
 .tr2cont {
-    background-color: rgb(39, 39, 39);
+    background-color: rgb(150, 29, 29);
     color: white;
     height: 17%;
     border-radius: 1vh;
@@ -194,7 +194,7 @@ body {
 }
 
 .tr3cont {
-    background-color: rgb(39, 39, 39);
+    background-color: rgb(150, 29, 29);
     color: white;
     height: 17%;
     border-radius: 1vh;
@@ -206,7 +206,7 @@ body {
 }
 
 .tr4cont {
-    background-color: rgb(39, 39, 39);
+    background-color: rgb(150, 29, 29);
     color: white;
     height: 17%;
     border-radius: 1vh;
