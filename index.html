@@ -4,24 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Henry's Library</title>
     <link rel="stylesheet" href="styles.css">
+    <title>Admin Panel</title>
 </head>
-<!-- <body onload="addBookToLibrary()"> -->
 <body>
-    <!-- <div>
-        <input type="text" id="userinput" placeholder="NAME">
-        <input type="button" onclick="addBookToLibrary()" value="Submit">
-    </div> -->
-    <!-- <div id="data"></div> -->
-    <div>
-        <p>Book Submission</p>
-        <form action="">
-            <input type="text" id="title" placeholder="Title">
-            <input type="text" id="author" placeholder="Author">
-            <input type="number" id="pages" placeholder="No. of pages">
-            <input type="submit" onclick="newBook()">
-        </form>
+    <div class="gridcontainer">
+        <div class="leftbar">
+            <div class="lb-container">
+                <div class="lb-dashboard">Dashboard</div>
+                <div class="lb-home">Home</div>
+                <div class="lb-profile">Profile</div>
+                <div class="lb-messages">Messages</div>
+                <div class="lb-tasks">Tasks</div>
+                <div class="lb-settings">Settings</div>
+                <div class="lb-support">Support</div>
+                <div class="lb-privacy">Privacy</div>
+                <a href="https://github.com/henewi/admindashboard"><div class="lb-github">Github</div></a>
+            </div>
+        </div>
+        <div class="topbar">
+            <div class="tb-container">
+                <div class="tb-topsection">
+                    <input type="text" class="tb-searchbar" placeholder="Search"></input>
+                    <div class="tb-profile">Henry Dunn</div>
+                </div>
+                <div class="tb-bottomsection">
+                    <div class="tb-logo"></div>
+                    <div class="tb-name">Henry Dunn</div>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="projects">
+                <div class="projectscont">
+                    <div class="p1"></div>
+                    <div class="p2"></div>
+                    <div class="p3"></div>
+                    <div class="p4"></div>
+                    <div class="p5"></div>
+                    <div class="p6"></div>
+                </div>
+            </div>
+            <div class="announcements">
+                <div class="announcements-title">Announcements</div>
+                <div>I am officially crowning myself king of the overworld, as of now.</div>
+                <hr>
+                <div>World XI football team has been released. Henry Dunn is captain.</div>
+                <hr>
+                <div>World's most attractive (and modest) man crowed as Henry Dunn.</div>
+            </div>
+            <div class="trending">
+                <div class="tr-title">Trending</div>
+                <div class="tr1cont">
+                <div class="tr1">Grandad P</div>
+                </div>
+                <div class="tr2cont">
+                <div class="tr2">Nanny K</div>
+                </div>
+                <div class="tr3cont">
+                <div class="tr3">Joc</div>
+                </div>
+                <div class="tr4cont">
+                <div class="tr4">Jez</div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 <script src="javascript.js"></script>
