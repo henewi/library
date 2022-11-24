@@ -28,14 +28,31 @@
 
 //-----------------------------------------------------------------
 
-const details = {
-    firstname: 'Henry',
-    lastname: 'Dunn',
-    age: '19',
-    "favnum": function() {
-        console.log(99-30);
-    }
+// const details = {
+//     firstname: 'Henry',
+//     lastname: 'Dunn',
+//     age: '19',
+//     "favnum": function() {
+//         console.log(99-30);
+//     }
+// }
+
+// console.log(details.firstname);
+// console.log(details["favnum"]);
+
+// .projectscont
+
+const books = document.querySelector('projectscont')
+const myLibrary = []
+
+function createBookItem (book,index) {
+    const bookItem = document.createElement('div');
+    bookItem.setAttribute('id',index)
+    bookItem.setAttribute('key',index)
 }
 
-console.log(details.firstname);
-console.log(details["favnum"]);
+function renderBooks () {
+    myLibrary.map((book,index)) => {
+        createBookItem(book,index)
+    }
+}
