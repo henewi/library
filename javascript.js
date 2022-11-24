@@ -40,8 +40,8 @@ function createBookItem (book,index) {
     );
     bookItem.appendChild(
         createBookElement('h1',"Pages:" + book.title, 'book-title')
-        books.insertAdjacentElement("afterbegin", bookItem);
     );
+    books.insertAdjacentElement("afterbegin", bookItem);
 }
 
 function renderBooks () {
@@ -50,4 +50,4 @@ function renderBooks () {
     });
 }
 
-renderBooks()
+renderBooks();
