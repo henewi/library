@@ -6,7 +6,7 @@
 
 // .projectscont
 
-const books = document.querySelector('projectscont')
+const books = document.querySelector('')
 const myLibrary = [{
     title: 'Book1',
     author: 'me',

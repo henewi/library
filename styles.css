@@ -47,7 +47,7 @@ body {
     grid-template-rows: [first] 50% [line2] 48%; 
 }
 
-.projects {
+.books {
     grid-row-start: 1;
     grid-row-end: 3;
     /* background-color: purple; */
