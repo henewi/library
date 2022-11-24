@@ -68,12 +68,22 @@ function createBookItem (book,index) {
     bookItem.setAttribute('id',index)
     bookItem.setAttribute('key',index)
     bookItem.setAttribute('class', 'card book')
-    bookItem.appendChild(createBookElement('h1',"Title:" + book.title, 'book-title'))
-    
+    bookItem.appendChild(
+        createBookElement('h1',"Title:" + book.title, 'book-title')
+    );
+    bookItem.appendChild(
+        createBookElement('h1',"Author:" + book.author, 'book-author')
+    );
+    bookItem.appendChild(
+        createBookElement('h1',"Pages:" + book.title, 'book-title')
+        books.insertAdjacentElement("afterbegin", bookItem);
+    );
 }
 
 function renderBooks () {
-    myLibrary.map((book,index)) => {
-        createBookItem(book,index);
-    }
+    myLibrary.map((book, index) => {
+        createBookItem(book, index);
+    });
 }
+
+renderBooks()
