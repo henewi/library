@@ -52,4 +52,4 @@ function renderBooks () {
 
 renderBooks();
 
-console.log("test")
+console.log("JS successfully imported.")
