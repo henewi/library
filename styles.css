@@ -47,7 +47,7 @@ body {
     grid-template-rows: [first] 50% [line2] 48%; 
 }
 
-.projects {
+.books {
     grid-row-start: 1;
     grid-row-end: 3;
     /* background-color: purple; */
@@ -217,7 +217,7 @@ body {
     margin: 1vh;
 }
 
-.projects {
+.books {
     margin: 2vh;
     margin-left: 6vh;
     margin-right: 5vh;
@@ -225,7 +225,7 @@ body {
     border-radius: 3vh;
 }
 
-.projectscont {
+.books {
     margin: 4vh;
     display: grid;
     grid-template-columns: [first] 31.3% [line2] 31.3% [line3] 31.3%;
