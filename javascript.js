@@ -27,19 +27,19 @@ function createBookElement(el,content,className) {
     return element;
 }
 
-function createBookItem (book,index) {
-    const bookItem = document.createElement('div');
-    bookItem.setAttribute('id',index)
-    bookItem.setAttribute('key',index)
-    bookItem.setAttribute('class', 'card book')
+function createBookItem (book, index) {
+    const bookItem = document.createElement("div");
+    bookItem.setAttribute("id",index)
+    bookItem.setAttribute("key",index)
+    bookItem.setAttribute("class", "card book")
     bookItem.appendChild(
-        createBookElement('h1',"Title:" + book.title, 'book-title')
+        createBookElement("h1",'Title:' + book.title, "book-title")
     );
     bookItem.appendChild(
-        createBookElement('h1',"Author:" + book.author, 'book-author')
+        createBookElement("h1",'Author:' + book.author, "book-author")
     );
     bookItem.appendChild(
-        createBookElement('h1',"Pages:" + book.title, 'book-title')
+        createBookElement("h1",'Pages:' + book.title, "book-title")
     );
     books.insertAdjacentElement("afterbegin", bookItem);
 }
@@ -51,3 +51,5 @@ function renderBooks () {
 }
 
 renderBooks();
+
+console.log("test")
