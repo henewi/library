@@ -227,6 +227,13 @@ body {
     border-radius: 3vh;
 }
 
+.card {
+    background-color: purple;
+    border-radius: 2vh;
+    margin: 2vh;
+    color: white;
+}
+
 .p1 {
     background-image: url(./0b84aad54eda43936b63837b8d7ae237--room-colors-book-shelves.jpg);
     background-size: contain;
