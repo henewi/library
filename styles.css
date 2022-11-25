@@ -47,12 +47,6 @@ body {
     grid-template-rows: [first] 50% [line2] 48%; 
 }
 
-.books {
-    grid-row-start: 1;
-    grid-row-end: 3;
-    /* background-color: purple; */
-}
-
 /* Left Bar (lb-xxxx) */ 
 
 .leftbar {
@@ -218,19 +212,19 @@ body {
 }
 
 .books {
-    margin: 2vh;
-    margin-left: 6vh;
-    margin-right: 5vh;
-    box-shadow: inset 0px 0px 1vw rgba(0, 0, 0, 0.349);
-    border-radius: 3vh;
-}
-
-.books {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    /* background-color: purple; */
     margin: 4vh;
     display: grid;
     grid-template-columns: [first] 31.3% [line2] 31.3% [line3] 31.3%;
     grid-template-rows: [row1-start] 32.5vh [line2] 32.5vh ;
     grid-gap: 3vh;
+    margin: 2vh;
+    margin-left: 6vh;
+    margin-right: 5vh;
+    box-shadow: inset 0px 0px 1vw rgba(0, 0, 0, 0.349);
+    border-radius: 3vh;
 }
 
 .p1 {
