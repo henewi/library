@@ -10,7 +10,7 @@ const books = document.querySelector(".books");
 const myLibrary = [{
     title: 'Book1',
     author: 'me',
-    pages: 500,
+    pages: 100,
     read: true,
 },
 {
@@ -45,7 +45,7 @@ function createBookItem (book, index) {
         createBookElement("h1",'Author:' + book.author, "book-author")
     );
     bookItem.appendChild(
-        createBookElement("h1",'Pages:' + book.title, "book-title")
+        createBookElement("h1",'Pages:' + book.pages, "book-title")
     );
     books.insertAdjacentElement("afterbegin", bookItem);
 }
