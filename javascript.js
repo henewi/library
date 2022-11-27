@@ -7,7 +7,24 @@
 // .projectscont
 
 const books = document.querySelector(".books");
-const myLibrary = Array()
+const myLibrary = [{
+    title: 'Book1',
+    author: 'me',
+    pages: 500,
+    read: true,
+},
+{
+    title: 'Book2',
+    author: 'you',
+    pages: 5000,
+    read: false,
+},
+{
+    title: 'Book3',
+    author: 'Cbum',
+    pages: 1,
+    read: true
+}];
 
 function createBookElement(el,content,className) {
     const element = document.createElement(el);
