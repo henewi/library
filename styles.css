@@ -215,7 +215,6 @@ body {
     grid-row-start: 1;
     grid-row-end: 3;
     /* background-color: purple; */
-    margin: 4vh;
     display: grid;
     grid-template-columns: [first] 31.3% [line2] 31.3% [line3] 31.3%;
     grid-template-rows: [row1-start] 32.5vh [line2] 32.5vh ;
@@ -233,6 +232,7 @@ body {
     margin: 2vh;
     color: black;
     font-size: 1.24vh;
+    border: 2px black solid;
 }
 
 .p1 {
