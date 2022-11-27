@@ -228,11 +228,11 @@ body {
 }
 
 .card {
-    background-color: purple;
+    /* background-color: purple; */
     border-radius: 2vh;
     margin: 2vh;
-    color: white;
-    font-size: 5px;
+    color: black;
+    font-size: 1.24vh;
 }
 
 .p1 {
