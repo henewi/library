@@ -39,13 +39,13 @@ function createBookItem (book, index) {
     bookItem.setAttribute("key",index)
     bookItem.setAttribute("class", "card book")
     bookItem.appendChild(
-        createBookElement("h1",'Title:' + book.title, "book-title")
+        createBookElement("h1",'Title: ' + book.title, "book-title")
     );
     bookItem.appendChild(
-        createBookElement("h1",'Author:' + book.author, "book-author")
+        createBookElement("h1",'Author: ' + book.author, "book-author")
     );
     bookItem.appendChild(
-        createBookElement("h1",'Pages:' + book.pages, "book-title")
+        createBookElement("h1",'Pages: ' + book.pages, "book-title")
     );
     books.insertAdjacentElement("afterbegin", bookItem);
 }
