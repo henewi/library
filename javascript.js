@@ -18,7 +18,13 @@ const myLibrary = [{
     author: 'you',
     pages: 5000,
     read: false,
-},];
+},
+{
+    title: 'Book3',
+    author: 'Cbum',
+    pages: 1,
+    read: true,
+}];
 
 function createBookElement(el,content,className) {
     const element = document.createElement(el);
