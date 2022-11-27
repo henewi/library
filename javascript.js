@@ -28,7 +28,7 @@ const myLibrary = [{
 
 function createBookElement(el,content,className) {
     const element = document.createElement(el);
-    element.textcontent = content;
+    element.textContent = content;
     element.setAttribute("class",className);
     return element;
 }
