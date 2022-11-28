@@ -42,7 +42,7 @@ const addBook = (ev) => {
 
 document.addEventListener('DOMContentLoaded', () => {
     document.getElementsByName('submit').addEventListener('click', addBook);
-});
+})
 
 function createBookElement(el,content,className) {
     const element = document.createElement(el);
