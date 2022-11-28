@@ -28,6 +28,8 @@ const books = document.querySelector(".books");
 
 // const myLibrary = document.getElementsByName("booktitle")[0].value;
 
+// INPUT FROM THE USER INTO ARRAY
+
 const myLibrary = [];
 const addBook = (ev) => {
     ev.preventDefault();
@@ -44,12 +46,16 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementsByName('submit').addEventListener('click', addBook);
 })
 
+// CREATING THE DOM ELEMENTS
+
 function createBookElement(el,content,className) {
     const element = document.createElement(el);
     element.textContent = content;
     element.setAttribute("class",className);
     return element;
 }
+
+// PUSHING INFO TO THE CARD
 
 function createBookItem (book, index) {
     const bookItem = document.createElement("div");
@@ -68,11 +74,15 @@ function createBookItem (book, index) {
     books.insertAdjacentElement("afterbegin", bookItem);
 }
 
+// RENDERING THE LIBRARY TO THE CARD 
+
 function renderBooks () {
     myLibrary.map((book, index) => {
         createBookItem(book, index);
     });
 }
+
+// RENDER & TEST
 
 renderBooks();
 
