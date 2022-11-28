@@ -131,7 +131,7 @@ body {
 
 }
 
-.announcements {
+.form {
     font-family: sfpro;
     font-size: 2.32vh;
     margin: 2vh;
@@ -142,7 +142,7 @@ body {
     border-radius: 2vh;
 }
 
-.announcements-title {
+.form-title {
     font-weight: bold;
     margin-bottom: 1vh;
 }
