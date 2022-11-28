@@ -32,11 +32,17 @@ const myLibrary = [];
 const addBook = (ev) => {
     ev.preventDefault();
     let book = {
-        title: document.getElementsByName('booktitle'),
-        author: document.getElementsByName('bookauthor'),
-        pages: document.getElementsByName('bookpages'),
+        title: document.getElementsByName('booktitle').value,
+        author: document.getElementsByName('bookauthor').value,
+        pages: document.getElementsByName('bookpages').value,
     }
+    books.push(book);
+    document.forms[0].reset();
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+    document.getElementsByName('submit').addEventListener('click', addBook);
+});
 
 function createBookElement(el,content,className) {
     const element = document.createElement(el);
