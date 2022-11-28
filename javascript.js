@@ -43,7 +43,7 @@ const addBook = (ev) => {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    document.getElementsByName('submit').addEventListener('click', addBook);
+    document.getElementsByName('btn').addEventListener('click', addBook);
 })
 
 // CREATING THE DOM ELEMENTS
