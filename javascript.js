@@ -7,44 +7,44 @@
 // .projectscont
 
 const books = document.querySelector(".books");
-// const myLibrary = [{
-//     title: 'Book1',
-//     author: 'me',
-//     pages: 100,
-//     read: true,
-// },
-// {
-//     title: 'Book2',
-//     author: 'you',
-//     pages: 5000,
-//     read: false,
-// },
-// {
-//     title: 'Book3',
-//     author: 'Cbum',
-//     pages: 1,
-//     read: true
-// }];
+const myLibrary = [{
+    title: 'Book1',
+    author: 'me',
+    pages: 100,
+    read: true,
+},
+{
+    title: 'Book2',
+    author: 'you',
+    pages: 5000,
+    read: false,
+},
+{
+    title: 'Book3',
+    author: 'Cbum',
+    pages: 1,
+    read: true
+}];
 
 // const myLibrary = document.getElementsByName("booktitle")[0].value;
 
 // INPUT FROM THE USER INTO ARRAY
 
-const myLibrary = [];
-const addBook = (ev) => {
-    ev.preventDefault();
-    let book = {
-        title: document.getElementsByName('booktitle').value,
-        author: document.getElementsByName('bookauthor').value,
-        pages: document.getElementsByName('bookpages').value,
-    }
-    books.push(book);
-    document.forms[0].reset();
-}
+// const myLibrary = [];
+// const addBook = (ev) => {
+//     ev.preventDefault();
+//     let book = {
+//         title: document.getElementsByName('booktitle').value,
+//         author: document.getElementsByName('bookauthor').value,
+//         pages: document.getElementsByName('bookpages').value,
+//     }
+//     books.push(book);
+//     document.forms[0].reset();
+// }
 
-document.addEventListener('DOMContentLoaded', () => {
-    document.getElementsByName('btn').addEventListener('click', addBook);
-})
+// document.addEventListener('DOMContentLoaded', () => {
+//     document.getElementsByName('btn').addEventListener('click', addBook);
+// })
 
 // CREATING THE DOM ELEMENTS
 
