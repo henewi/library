@@ -82,7 +82,7 @@ function renderBooks () {
     });
 }
 
-// RENDER & TEST
+// RENDER & PUSH
 
 renderBooks();
 
