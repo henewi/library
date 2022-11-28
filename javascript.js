@@ -7,24 +7,36 @@
 // .projectscont
 
 const books = document.querySelector(".books");
-const myLibrary = [{
-    title: 'Book1',
-    author: 'me',
-    pages: 100,
-    read: true,
-},
-{
-    title: 'Book2',
-    author: 'you',
-    pages: 5000,
-    read: false,
-},
-{
-    title: 'Book3',
-    author: 'Cbum',
-    pages: 1,
-    read: true
-}];
+// const myLibrary = [{
+//     title: 'Book1',
+//     author: 'me',
+//     pages: 100,
+//     read: true,
+// },
+// {
+//     title: 'Book2',
+//     author: 'you',
+//     pages: 5000,
+//     read: false,
+// },
+// {
+//     title: 'Book3',
+//     author: 'Cbum',
+//     pages: 1,
+//     read: true
+// }];
+
+// const myLibrary = document.getElementsByName("booktitle")[0].value;
+
+const myLibrary = [];
+const addBook = (ev) => {
+    ev.preventDefault();
+    let book = {
+        title: document.getElementsByName('booktitle'),
+        author: document.getElementsByName('bookauthor'),
+        pages: document.getElementsByName('bookpages'),
+    }
+}
 
 function createBookElement(el,content,className) {
     const element = document.createElement(el);
