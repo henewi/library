@@ -145,6 +145,7 @@ body {
 .form-title {
     font-weight: bold;
     margin-bottom: 1vh;
+    font-size: 3vh;
 }
 
 .trending {
