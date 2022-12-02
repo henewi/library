@@ -285,3 +285,7 @@ body {
     border-radius: 1vh;
     padding: 0.5vh;
 }
+
+#btn:hover {
+    transform: scale(1.05);
+}
