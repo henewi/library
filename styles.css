@@ -193,6 +193,11 @@ body {
     margin: 1vh;
 }
 
+.tr2cont:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
 .tr3cont {
     background-color: rgb(150, 29, 29);
     color: white;
@@ -205,6 +210,11 @@ body {
     margin: 1vh;
 }
 
+.tr3cont:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
 .tr4cont {
     background-color: rgb(150, 29, 29);
     color: white;
@@ -215,6 +225,11 @@ body {
 
 .tr4 {
     margin: 1vh;
+}
+
+.tr4cont:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
 }
 
 .books {
