@@ -176,6 +176,11 @@ body {
     margin: 1vh;
 }
 
+.tr1cont:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
 .tr2cont {
     background-color: rgb(150, 29, 29);
     color: white;
